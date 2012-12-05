@@ -11,7 +11,9 @@ In my case, the Wordpress is hosted on [Pagoda Box](http://pagodabox.com). A ver
 
 With my solution, Wordpress checks for an environment variable called 'ENVIRONMENT' and based on that it loads the appropriate configuration file. It defaults on 'dev', so in your development environment it would load the config file *wp-config/wp-config.dev.php*
 To make Wordpress detecting your configuration files, you have to modify *wp-config.php* first to this;
+
 ~~~
+
 <?php
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
@@ -23,10 +25,13 @@ require_once ABSPATH . 'wp-config/wp-config.' . strtolower($env) . '.php';
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
 ~~~
 
 Now you're environment configuration file could look like this (for connecting with a Pagoda Box database instance for example);
+
 ~~~
+
 <?php
 /**
  * The base configurations of the WordPress.
@@ -111,4 +116,5 @@ define('WP_DEBUG', false);
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
 ~~~
