@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: From A till Z in PHP
 categories: [php]
 tags: [alphabet, characters, php, range, snippet]

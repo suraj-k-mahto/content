@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: Add your own styles to Drupal's WYSIWYG module
 categories: [drupal, php]
 tags: [ckeditor, configuration, css, drupal, module, php, wysiwyg]

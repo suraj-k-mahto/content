@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: Using Drush in a MAMP environment
 categories: [mac, drupal]
 tags: [drupal, drush, mac, mamp, mamp pro, php]

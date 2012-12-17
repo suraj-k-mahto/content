@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: Remove Drupal core stylesheets with hook_css_alter
 categories: [drupal, php]
 tags: [css, drupal, php, stylesheets, theming]

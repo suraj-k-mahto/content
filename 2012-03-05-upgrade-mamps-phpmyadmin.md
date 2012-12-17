@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: Upgrade MAMP's phpMyAdmin
 categories: [mac, php]
 tags: [environment, mac, mamp, mamp pro, mysql, php, phpmyadmin, upgrade]

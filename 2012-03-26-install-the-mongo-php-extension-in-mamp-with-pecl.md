@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: Install the Mongo PHP extension in MAMP with PECL
 categories: [mac, php]
 tags: [extension, mac, mamp, mamp pro, mongodb, php]

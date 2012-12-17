@@ -1,5 +1,4 @@
 ---
-type: RvdvBlogBundle:Article
 title: Configure multiple environments within Wordpress
 categories: [php, wordpress]
 tags: [configuration, environment, pagodabox, php, wordpress]
