@@ -8,7 +8,7 @@ Most of the time, when you are developing web applications, you make use of mult
 <!-- more -->
 In my case, the Wordpress is hosted on [Pagoda Box](http://pagodabox.com). A very good hosting solution for PHP applications, but you are very limited when it comes to configuring your Wordpress installation (you have to install plugins locally and commit them to the repository). I've followed [this documentation](http://help.pagodabox.com/customer/portal/articles/175468-wordpress) at first to get Wordpress up and running on Pagoda Box. But I wasn't very pleased with their solution of setting up the database connection both locally and on Pagoda Box. So I came up with my own solution.
 
-With my solution, Wordpress checks for an environment variable called 'ENVIRONMENT' and based on that it loads the appropriate configuration file. It defaults on 'dev', so in your development environment it would load the config file *wp-config/wp-config.dev.php*
+With my solution, Wordpress checks for an environment variable called 'ENVIRONMENT' and based on that it loads the appropriate configuration file. It defaults to 'dev', so in your development environment it would load the config file *wp-config/wp-config.dev.php*
 To make Wordpress detecting your configuration files, you have to modify *wp-config.php* first to this;
 
 ~~~
@@ -27,7 +27,7 @@ require_once(ABSPATH . 'wp-settings.php');
 
 ~~~
 
-Now you're environment configuration file could look like this (for connecting with a Pagoda Box database instance for example);
+Now you're environment configuration file could look like this (for connecting to a Pagoda Box database instance for example);
 
 ~~~
 
