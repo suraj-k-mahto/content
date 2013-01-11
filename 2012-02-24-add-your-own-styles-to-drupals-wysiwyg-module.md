@@ -24,4 +24,4 @@ function ckeditor_styles_wysiwyg_editor_settings_alter(&$settings, &$context)
 
 ~~~
 
-No when you go to *admin/config/content/wysiwyg/profile/filtered_html/edit* and select the option *Define CSS* under *Editor CSS*. You can fill in the stylesheet's uri below. Now you can see your stylesheet's styles on every textarea that uses *filtered_html*.
+Now when you go to *admin/config/content/wysiwyg/profile/filtered_html/edit* and select the option *Define CSS* under *Editor CSS*. You can fill in the stylesheet's uri below. Now you can see your stylesheet's styles on every textarea that uses *filtered_html*.
