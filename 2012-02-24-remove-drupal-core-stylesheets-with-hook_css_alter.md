@@ -34,4 +34,4 @@ function THEMENAME_css_alter(&$css)
 
 ~~~
 
-As you can see, it removes all system module stylesheets from the stylesheets that will be rendered. This can be offcourse any stylesheet of any module you want.
+As you can see, it removes all system module stylesheets from the stylesheets that will be rendered. This can be of course any stylesheet of any module you want.
