@@ -2,6 +2,7 @@
 title: Add your own styles to Drupal's WYSIWYG module
 categories: [drupal, php]
 tags: [ckeditor, configuration, css, drupal, module, php, wysiwyg]
+published: true
 ---
 
 For a better user experience on node crud actions, I've installed the [WYSIWYG module](http://drupal.org/project/wysiwyg) with the [CKEditor plugin](http://ckeditor.com/). It adds the CKEditor interface as a filter for large textfields. And by default it loads in CKEditor's predefined styles. Very nice for beginners, but what if you want to include your own theme styles? The WYSIWYG editor supports loading your stylesheets, but works a bit buggy on the latest version (2.1 on time of writing this) in combination with the CKEditor. Luckily I found a very quick fix for this issue.

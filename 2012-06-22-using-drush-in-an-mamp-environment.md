@@ -2,6 +2,7 @@
 title: Using Drush in a MAMP environment
 categories: [mac, drupal]
 tags: [drupal, drush, mac, mamp, mamp pro, php]
+published: true
 ---
 
 [Drush](http://drush.ws/) is a very powerful instrument in the toolbox of a Drupal developer. But it can give you a little headache when trying to install in your local MAMP setup.

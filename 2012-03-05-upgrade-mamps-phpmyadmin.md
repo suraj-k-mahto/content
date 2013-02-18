@@ -2,6 +2,7 @@
 title: Upgrade MAMP's phpMyAdmin
 categories: [mac, php]
 tags: [environment, mac, mamp, mamp pro, mysql, php, phpmyadmin, upgrade]
+published: true
 ---
 
 My current [MAMP](http://www.mamp.info) version ships with phpMyAdmin version 3.3.9.2. But there is already a higher version available, version 3.4.10.1. Upgrading the shipped phpMyAdmin to the latest version appears to be very easy. Just downloading and extracting it to the correct folder.

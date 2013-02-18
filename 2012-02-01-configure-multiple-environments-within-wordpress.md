@@ -2,6 +2,7 @@
 title: Configure multiple environments within Wordpress
 categories: [php, wordpress]
 tags: [configuration, environment, pagodabox, php, wordpress]
+published: true
 ---
 
 Most of the time, when you are developing web applications, you make use of multiple environments. For example, a development, staging and production environment. But how do you configure each environment separately? One solution is a multi-site installation with Wordpress, but I didn't see that one fit into my development process.

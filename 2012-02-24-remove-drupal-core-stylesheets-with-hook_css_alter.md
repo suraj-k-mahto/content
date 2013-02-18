@@ -2,6 +2,7 @@
 title: Remove Drupal core stylesheets with hook_css_alter
 categories: [drupal, php]
 tags: [css, drupal, php, stylesheets, theming]
+published: true
 ---
 
 When you start developing themes, you'll find out that there will be a lot of stylesheets loaded in by default. To remove those stylesheets from your own theme's *template.php*, you have to overwrite *hook_css_alter* and remove the stylesheets from the array. To make things a bit clearer, take a look at the following snippet:

@@ -2,6 +2,7 @@
 title: Install the Mongo PHP extension in MAMP with PECL
 categories: [mac, php]
 tags: [extension, mac, mamp, mamp pro, mongodb, php]
+published: true
 ---
 
 Maybe as you guessed from [my previous post](/blog/upgrade-mamps-phpmyadmin), I develop on a Mac with MAMP. I really like the interface of the pro version compared to other programs like XAMPP. But it seems very difficult to install PEAR extensions with it. This post will explain how to install the [MongoDB extension](http://php.net/manual/en/class.mongodb.php), but I guess this technique can be applied to a lot of other extensions too.
