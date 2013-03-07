@@ -9,7 +9,9 @@ Today I released a very useful [module](http://drupal.org/project/content_mask) 
 <!-- more -->
 
 A very simple example looks like the following;
-```
+
+~~~
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ligula 
 non augue scelerisque dapibus vel et ante. Pellentesque volutpat nibh ut 
 ipsum bibendum euismod. Ut nibh nisi, aliquam sed ornare eu, hendrerit 
@@ -26,7 +28,8 @@ morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 Praesent rutrum, ligula vitae porta faucibus, nunc ante consequat est, 
 in imperdiet eros odio vitae nunc.
 [/content_mask]
-```
+
+~~~
 
 As you can see, you can mask content based on the user's UID or role. Please note that the attribute you configure on the shortcode is for users who are authorized to view the content.
 
