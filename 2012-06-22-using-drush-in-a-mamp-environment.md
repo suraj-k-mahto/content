@@ -36,11 +36,13 @@ Now you have to make sure that you've installed the *console_getopt* PEAR module
 
 You're now all set to install Drush, run the following commands to do this;
 
-1.  ``pear upgrade --force Console_Getopt``
-2.  ``pear upgrade --force pear``
-3.  ``pear upgrade-all``
-4.  ``pear channel-discover pear.drush.org``
-5.  ``pear install drush/drush``
+```bash
+$ pear upgrade --force Console_Getopt
+$ pear upgrade --force pear
+$ pear upgrade-all
+$ pear channel-discover pear.drush.org
+$ pear install drush/drush
+```
 
 To check if everything works correctly, run the last command of this tutorial in your terminal:
 ``drush version``

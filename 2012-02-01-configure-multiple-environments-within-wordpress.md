@@ -12,8 +12,7 @@ In my case, the Wordpress is hosted on [Pagoda Box](http://pagodabox.com). A ver
 With my solution, Wordpress checks for an environment variable called 'ENVIRONMENT' and based on that it loads the appropriate configuration file. It defaults to 'dev', so in your development environment it would load the config file *wp-config/wp-config.dev.php*
 To make Wordpress detecting your configuration files, you have to modify *wp-config.php* first to this;
 
-~~~
-
+```php
 <?php
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
@@ -25,13 +24,11 @@ require_once ABSPATH . 'wp-config/wp-config.' . strtolower($env) . '.php';
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-~~~
+```
 
 Now you're environment configuration file could look like this (for connecting to a Pagoda Box database instance for example);
 
-~~~
-
+```php
 <?php
 /**
  * The base configurations of the WordPress.
@@ -67,7 +64,7 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-/**#@+
+/**
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
@@ -84,8 +81,6 @@ define('AUTH_SALT',        'put your unique phrase here');
 define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
-
-/**#@-*/
 
 /**
  * WordPress Database Table prefix.
@@ -116,5 +111,4 @@ define('WP_DEBUG', false);
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-
-~~~
+```

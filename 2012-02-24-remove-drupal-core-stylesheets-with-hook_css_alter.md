@@ -8,8 +8,7 @@ published: true
 When you start developing themes, you'll find out that there will be a lot of stylesheets loaded in by default. To remove those stylesheets from your own theme's *template.php*, you have to overwrite *hook_css_alter* and remove the stylesheets from the array. To make things a bit clearer, take a look at the following snippet:
 <!-- more -->
 
-~~~
-
+```php
 <?php
 /**
  * Remove Drupal's core system stylesheets.
@@ -32,7 +31,6 @@ function THEMENAME_css_alter(&$css)
         }
     }
 }
-
-~~~
+```
 
 As you can see, it removes all system module stylesheets from the stylesheets that will be rendered. This can be of course any stylesheet of any module you want.
