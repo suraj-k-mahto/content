@@ -10,7 +10,7 @@ Today I released a very useful [module](http://drupal.org/project/content_mask) 
 
 A very simple example looks like the following;
 
-```
+```bash
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ligula
 non augue scelerisque dapibus vel et ante. Pellentesque volutpat nibh ut
 ipsum bibendum euismod. Ut nibh nisi, aliquam sed ornare eu, hendrerit
