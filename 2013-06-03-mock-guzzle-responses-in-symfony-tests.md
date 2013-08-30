@@ -45,7 +45,7 @@ class HeaderControllerTest extends WebTestCase
 
 As you can see, the client is grabbed from the DI container and the mock plugin is added as subscriber. But what's that text file doing there? It contains the raw response as you would actually receive from your service. Like for example:
 
-```
+```bash
 HTTP/1.1 200 OK
 Date: Wed, 25 Nov 2009 12:00:00 GMT
 Connection: close
