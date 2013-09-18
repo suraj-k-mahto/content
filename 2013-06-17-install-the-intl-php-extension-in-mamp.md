@@ -13,6 +13,7 @@ First, grab the [ICU libraries](http://site.icu-project.org/download/48#ICU4C-Do
 ```bash
 $ curl -O http://download.icu-project.org/files/icu4c/4.8.1.1/icu4c-4_8_1_1-src.tgz
 $ tar xzvf icu4c-4_8_1_1-src.tgz
+$ cd icu/source
 $ ./runConfigureICU MacOSX
 $ make && sudo make install
 ```
