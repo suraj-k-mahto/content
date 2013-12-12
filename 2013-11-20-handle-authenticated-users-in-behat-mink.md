@@ -73,6 +73,8 @@ It is a much cleaner solution regarding the amount of lines in the features, but
 There has to be a better option and after googling a bit more, I stumbled upon the Symfony cookbook where they explain [how authentication can be simulated through tokens](http://symfony.com/doc/current/cookbook/testing/simulating_authentication.html). This looks very promising and after some trail and error runs of Behat and Mink, I came up with the following code in my FeatureContext;
 
 ```php
+<?php
+
 use Behat\Mink\Driver\BrowserKitDriver;
 use Symfony\Component\BrowserKit\Cookie;
 use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
