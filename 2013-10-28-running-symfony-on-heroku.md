@@ -1,7 +1,7 @@
 ---
 title: 'Running Symfony on Heroku'
 tags: [php, cloud, heroku, buildpack]
-header: 52c19d7add2bd.jpeg
+header: 'http://cdn.robinvdvleuten.nl/articles/52c1a8e0dcb5f.jpeg'
 published: true
 ---
 
