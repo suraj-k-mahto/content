@@ -1,7 +1,7 @@
 ---
-title: Handle authenticated users in Behat/Mink
-categories: [php, symfony, bdd, behat, mink, authentication]
+title: 'Handle authenticated users in Behat/Mink'
 tags: [php, symfony, bdd, behat, mink, authentication]
+header: 52c19d611a0b6.jpeg
 published: true
 ---
 
