@@ -1,7 +1,7 @@
 ---
-title: Running Symfony on Heroku
-categories: [php, cloud, symfony]
+title: 'Running Symfony on Heroku'
 tags: [php, cloud, heroku, buildpack]
+header: 52c19d7add2bd.jpeg
 published: true
 ---
 
