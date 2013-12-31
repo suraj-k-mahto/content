@@ -1,7 +1,7 @@
 ---
 title: 'Handle authenticated users in Behat/Mink'
 tags: [php, symfony, bdd, behat, mink, authentication]
-header: 'http://cdn.robinvdvleuten.nl/articles/52c1a8d723fe6.jpeg'
+header: 'http://cdn.robinvdvleuten.nl/articles/52c292b27a0b2.jpeg'
 published: true
 ---
 
