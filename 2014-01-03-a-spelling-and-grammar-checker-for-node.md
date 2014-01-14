@@ -32,5 +32,5 @@ See the [README][5] for more usage information or report any issues [here][6].
 [2]: https://github.com/RobinvdVleuten/gingerbread
 [3]: http://www.gingersoftware.com/
 [4]: https://github.com/subosito/gingerice
-[5]: https://github.com/RobinvdVleuten/gingerbread/README.md
+[5]: https://github.com/RobinvdVleuten/gingerbread/blob/master/README.md
 [6]: https://github.com/RobinvdVleuten/gingerbread/issues
