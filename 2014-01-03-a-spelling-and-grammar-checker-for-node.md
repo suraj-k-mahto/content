@@ -27,3 +27,5 @@ gingerbread('The smelt of fliwers bring back memories.', {/** options to overrid
 ```
 
 See the [README](https://github.com/RobinvdVleuten/gingerbread/blob/master/README.md) for more usage information or report any issues [here](https://github.com/RobinvdVleuten/gingerbread/issues).
+
+Photo credits: [http://www.flickr.com/photos/dichohecho/4279468557/](http://www.flickr.com/photos/dichohecho/4279468557/)
